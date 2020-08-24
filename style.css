@@ -1,0 +1,107 @@
+body{
+    background-image: url(background.jpg)
+}
+a {
+    text-decoration:none;
+    color:darkblue;
+}
+
+#header{
+    background-color:sandybrown;
+    color: whitesmoke;
+    text-align:center;
+}
+#page{
+    background-color:white;
+    width:870px;
+    margin-right:auto;
+    margin-left:auto;
+}
+#box{
+    padding:10px;
+}
+#nav{
+    width:150px;
+    height:600px;
+    float:left;
+    background-color:cornsilk;
+    background-position:left;
+    padding:10px;
+}
+nav a:hover{
+    background-color: brown;
+    color:azure;
+}
+#content{
+    width:700px;
+    padding:10px;
+   float:right;
+    align-content: center;
+   
+}
+#footer{
+    clear:both;
+    text-align:right;
+    background-color:cadetblue;
+}
+#nav .selected{
+    
+}
+
+.image{
+    border:5px solid black;
+    display:block;
+  margin-left:auto;
+    margin-right:auto;
+   }
+.junk{
+    font-size:20px;
+}
+#pic1,#pic2{
+    border:5px solid black;
+    margin:5px;
+}
+.dresscode{
+    float:right;
+    margin-right:200px;
+}
+#labsafety1{
+    float:left;
+    margin-left:30px;
+}
+#labsafety2{
+    float:right;
+    margin-right:50px;
+}
+#box1{
+    margin-top:350px;
+}
+#blank{
+    float:right;
+    border:5px solid black;
+}
+#htmlbasics{
+    float:left;
+    margin-left:50px;
+    border:5px sloid black;
+}
+
+#basicstext{
+    margin-top:550px;
+}
+a{
+    text-decoration:none;
+    color:saddlebrown;
+}
+#css1{
+    border:5px solid black;
+    margin-left:50px;
+}
+.cad{
+float:right;
+    margin-right:150px;
+}
+#finalproj{
+    padding-left:200px;
+    
+}

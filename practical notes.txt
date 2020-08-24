@@ -1,0 +1,36 @@
+Link to laser cutting notes @T11C: https://esp.sp.edu.sg/webapps/blackboard/content/listContentEditable.jsp?content_id=_1547282_1&course_id=_51997_1
+Link for 3D Printing @T1442 - https://esp.sp.edu.sg/webapps/blackboard/content/listContentEditable.jsp?content_id=_1826847_1&course_id=_51997_1
+Fablab Safety notes: https://esp.sp.edu.sg/webapps/blackboard/content/listContentEditable.jsp?content_id=_1539071_1&course_id=_51997_1
+LIst of names for Group 2 is the same, but from 11 - 12 & 12 - 1 instead of 8 - 10
+8:30 - 10:30 timing is for Group 1
+Face mask is mandatory for all students & staff when on campus.
+IDE - Integrated Development Environment. Allows you to write code, compile & upload it to the embedded board
+
+Note: instructions is case-sensitive.
+- pinMode() is not the same as pinmode()
+- make sure you use the correct case.
+Note: a '0' value evaluates to false, any non-zero value evaluates to true in in if statement. 
+int state=0;
+if (state)
+   printf("True");
+else
+   printf("False");
+
+will print the statement "False"
+Tinkercad Circuits LCD doesn't have I2C piggyback, so you need to wire all the pins. I2C LCD is preferred, as it reduces # of pins required.
+You need to install I2C LCD library to use this display. Do note that there are different versions of the I2C piggyback module, so library must be matched to your specific module.
+One of the advantages of using I2C devices is because you can daisy-chain (& control) up to 127 devices using the same 2 wires (SDA/SCL).
+Each I2C device must have a unique address on the bus (daisy-chain connection)
+FS90 is cheap when buying directly from China (e.g. aliexpress), but expensive when buying from local shops, perhaps 3 to 5x the price.
+https://www.youtube.com/watch?v=YMJFigrKXpw
+https://www.google.com.sg/search?hl=zh-cn&sxsrf=ALeKk00gtaV9SHfd6HkUKMp9RbARmkpRxw%3A1595843924277&source=hp&ei=VKUeX5zFDrOMmgfJ5Ib4Bg&q=how+to+connect+audio+input+to+arduino+board&oq=how+to+connect+audio+input+to+arduino+board&gs_lcp=CgZwc3ktYWIQAzoHCCMQ6gIQJzoECCMQJzoGCCMQJxATOggIABCxAxCDAToCCAA6BQgAELEDOgQIABBDOgQIABAMOgUIABDLAToGCAAQCBAeOgUIIRCgAToHCCEQChCgAVCMCFjmQ2DMRGgBcAB4AIAB1gGIAdcakgEGMzQuOC4xmAEAoAEBqgEHZ3dzLXdperABCg&sclient=psy-ab&ved=0ahUKEwicv-Lxle3qAhUzhuYKHUmyAW8Q4dUDCAc&uact=5
+https://github.com/shajeebtm/Arduino-audio-spectrum-visualizer-analyzer/
+https://create.arduino.cc/projecthub/shajeeb/32-band-audio-spectrum-visualizer-analyzer-902f51
+https://www.google.com.sg/search?hl=zh-cn&sxsrf=ALeKk03O91TOamdXgWjrnXtwBvoPxhKdaw%3A1595840014531&source=hp&ei=DpYeX7O9HpXnz7sPkKm7oAs&q=spectrum+aalyzer+arduino&oq=spectrum+aalyzer+arduino&gs_lcp=CgZwc3ktYWIQAzIECAAQDTIGCAAQDRAeMgYIABANEB4yBggAEA0QHjIGCAAQDRAeMgYIABANEB4yBggAEA0QHjIICAAQDRAFEB4yCAgAEA0QBRAeMggIABANEAUQHjoHCCMQ6gIQJzoECCMQJzoICAAQsQMQgwE6BAgAEEM6BQgAELEDOgIIADoHCAAQsQMQQzoECAAQAzoFCAAQywE6BwgAEAoQywE6BggAEAoQHjoICAAQCBAKEB46BggAEAUQHjoECAAQEzoICAAQDRAeEBM6CAgAEA0QChAeUIQiWN9ZYOlcaAJwAHgAgAGdAYgB4Q-SAQQyMC41mAEAoAEBqgEHZ3dzLXdperABCg&sclient=psy-ab&ved=0ahUKEwiz_Lqph-3qAhWV83MBHZDUDrQQ4dUDCAc&uact=5
+  All raw measurements
+radius of sound sensor: 5.7mm
+Dist btw holes stepper: 35mm
+diameter hole stepper:4.35
+bottom flat to centre spinner = 8mm
+pointy thing=10mm
+breadboard= 5.5 cm x 17 cm

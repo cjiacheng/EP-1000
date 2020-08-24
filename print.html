@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Dfab EP1000 Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+<body>
+    <div id="page">
+        <div id="header">
+            <h1> What have I learned in this course?</h1>
+    </div>
+   
+    <div id="box">
+   
+    <div id="nav">
+        <h3><b> Navigation</b></h3>
+        <ul>
+        <li><a class ="selected" href="index.html">Homepage</a></li>
+            <li><a class="selected" href="info.html">Information about me</a></li>
+            <li><a class="selected" href="sar.html">Lab saftey and regulations</a></li>
+        <li> <a class="selected" href="expect.html">What I expect to learn in this module</a></li>
+            <li><a class="selected" href="learning.html"> My learning up till now</a></li>
+            <li><a class="selected"href="final.html">Final Project</a></li>
+        </ul>
+        </div>
+        <div id =" content">
+     <p><h1>3D printing using Ultimaker Cura </h1></p>
+        <ul>
+        <li><a class="learn" href="cad.html"><u>CAD</u></a></li>
+        <li><a class="learn" href="arduino.html"><u>Embedded Programming</u></a></li>            
+        <li><a class="learn"href="print.html"><u>3D Printing</u></a></li>
+            <li><a class="learn"href="laser.html"><u>Laser Cutting</u></a></li>
+            </ul>
+       <p><h4>3D printing is the act of using a 3D printing machine to create a 3D object that is done using Computer Aided design(CAD). 3D printing machines reads GCODE files to print the designed object layer by layer. The printing process takes varing time depending on how detailed the design is, how dense the object is and how large your design is.</h4></p>
+        <p><h4>To start printing, you must first have a design ready, you can either download a design from the internet <a href="https://www.thingiverse.com/"><u>Nice Site!</u></a> or you can create on using CAD software such as Fusion 360.</a></h4></p>
+        <p><h4> From Fusion 360 , to export a design for 3D printing, you have to make sure that the design is in 1 piece(Combine Option) and follow on to export the the design as a STL file for 3D printing. Right click the body and select save as STL , this will prep your design for 3D printing.</h4></p>
+        <img src="print1.PNG" height=300 width=300>
+        <p><h4> Printers that we use in school are of the Ultimaker 2+ that uses a SD card to input the design. Before sending the design for printing, we must make adjusments and change the file type to GCODE. This can be accomplished with the <a href="https://ultimaker.com/software/ultimaker-cura"> <u>Ultimaker Software</u></a>. Inside the software, you can change the <ul>
+    <li>Size of the design, to change to time taken to print.</li>
+    <li>The infill density, to change time taken to print and the density of the print. Normally a density of between 10-20% is used</li>
+    <li>Layer height, greatly reduces the time for printing. Normally 0.2m, 0.3m for fast print</li>
+    <li>Generate support for hanging/floating components to make it possible for printing.</li>
+    <li>Other than these, the rest of the settings should be kept the same, for beginners.</li>
+    
+    </ul>
+    <img src="print2.PNG" height=500 width=500>
+    <br>
+    After adjusting the print to your liking, clicking on the slice button will give u the time taken for the print. Now, to start printing, insert the SD card(SD card for this case) into your pc/laptop and select "Save to removable device" This will make a copy of the file onto the SD card and prep it for printing. Now the only thing for you to is to insert the SD card back into the 3D printing machine and start printing!
+    </h4></p>
+    <img src="print7.jpeg" height=300 width=300>
+    <p><h4> When the printer starts printing, it should first take a while to heat up and vomit a little turd on the corner, this will give you the indictation that everything is working fine. Remember to check if there is enough Filament before printing for extended periods!!</h4></p>
+
+    <p><h4><h3>Group project :</h3> To test the limitations of 3D printing with bridging, overhang,infill density and clearance.</h4></p>
+    <p><h3> Infill density</h3><h4>infill desnsity greatly affects the strength and the time takes for the object to be printed. For this test, we shall be looking at 3D printed cubes with ranging densities from 0% to 100%. As you can see, as the density increases, the less space there is in the cube, this results in a stronger structure but a tradeoff to print time.</h4></p>
+    <img src="print3.PNG" height=400 width=400>
+    <h3>Bridging</h3><h4>bridging is having hanging filament suspended between 2 points without any support. Over bridging will cause the filament to sag and ruin the structure of your design. Here we shall test bridging over 5 lengths with each being 1cm longer than the last. As you can see, as it goes past the 3rd bridge, an obvious sagging can be seen with the filaments being bent.</h4>
+    <img src="print4.PNG" height=400 width=400>
+    <h3>Overhang</h3><h4>overhang is having hanging filament hanging from one support over a angle without any support. Overhang over too large of a angle might cause disruption to the structure . We tested overhang over angles from 30-70 degrees. From 45degrees onwards, fillaments can be seen sagging slightly, but still of an acceptable range.</h4>
+    <img src="print5.PNG" height=400 width=400>
+    <h3>Clearance</h3><h4>clearance happens due to the inaccuracy of printing or surface finish. This causes a slight difference between the design and the actual print.</h4>
+    <img src="print6.PNG" height=400 width=400>
+         
+</div> 
+    
+    </div>
+ 
+    <div id="footer">
+        <h2> Copyright &copy; 2020 Chen Jia Cheng</h2>
+    </div>
+    </div>
+    
+    </body>
+
+
+
+
+
+</html>

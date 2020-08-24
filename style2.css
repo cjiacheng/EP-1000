@@ -1,0 +1,33 @@
+
+
+
+#page{
+    background-color:blueviolet;
+    width:669px;
+    float:right;
+    
+}
+#nav{
+    background-color:black;
+    width:200px;
+    float:left;
+    margin:auto;
+   height:auto;
+}
+#header{
+    text-align:center;
+    background-color:aqua;
+    margin:auto;
+}
+#container{
+    float:right;
+    width:600px;
+    padding:5px;
+    
+}
+.titles{
+    color:aliceblue;
+    
+}
+
+c

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<hmtl>
+<head>
+    <title> <b>My Webpage</b></title>
+ </head>
+    <body>
+        {
+        back-ground
+        }
+        <div id="Header">
+        <h1>Hi everybody, and welcome to my first webpgae.</h1>
+            </div>
+        <div class="Basic intro">
+        <p> This webpage was made as a form of <i>introduction</i> and also to share more about myself.</p>
+        <hr/>
+       <ul> <p>Hi,my name is <b><i>Chen Jia Cheng</i></b></p>
+           <img src="Selfie.jpg"width="200"height="200"alt="Myself"/>
+           <li>Im currently in year 2 of <span class="red">DMRO</span>(Diploma in Mechatronics and Robotics)</li>
+           <li>Im currently in the waterpolo club.</li>
+           <li> I enjoy playing mobile and pc games such as King's glory and LOL in my free time.</li>
+            </ul>
+           </div>
+           <div>
+        <p></p>
+        
+        </div>
+       
+    </body>
+
+            <img clas="image2"src="sportsic.jpg" width="150"height="150"/>
+
+
+
+
+
+
+
+
+
+
+
+</html>

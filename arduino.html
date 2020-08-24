@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Dfab EP1000 Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+<body>
+    <div id="page">
+        <div id="header">
+            <h1> What have I learned in this course?</h1>
+    </div>
+   
+    <div id="box">
+   
+    <div id="nav">
+        <h3><b> Navigation</b></h3>
+        <ul>
+        <li><a class ="selected" href="index.html">Homepage</a></li>
+            <li><a class="selected" href="info.html">Information about me</a></li>
+            <li><a class="selected" href="sar.html">Lab saftey and regulations</a></li>
+        <li> <a class="selected" href="expect.html">What I expect to learn in this module</a></li>
+            <li><a class="selected" href="learning.html"> My learning up till now</a></li>
+            <li><a class="selected"href="final.html">Final Project</a></li>
+        </ul>
+        </div>
+        <div id =" content">
+     <p><h1>Embedded Programming with ARDUINO </h1></p>
+        <ul>
+        <li><a class="learn" href="cad.html"><u>CAD</u></a></li>
+        <li><a class="learn" href="arduino.html"><u>Embedded Programming</u></a></li>            
+        <li><a class="learn"href="print.html"><u>3D Printing</u></a></li>
+            <li><a class="learn"href="laser.html"><u>Laser Cutting</u></a></li>
+            </ul>
+        <p><h4> Programming with Arduino is one of the topics taught during Digital Fabrication Lab. Arduino IDE programming is used to control electronics to perform specified functions that is to be used for our final project. To start programming you will require these.</h4></p>
+        <p><h4><ul>
+        <li><a href="https://www.arduino.cc/en/Main/Software">Arduino IDE</a> (A must for arduino programming as this allows you to upload your codes onto your arduino board.) </li>
+        <li><a href="https://www.tinkercad.com/dashboard?type=circuits&collection=designs"> TinkerCAD circuits</a> (This is a website that allows you to test your connections and coding without actually connecting.)</li>
+        
+        </ul></h4></p>
+        <p><h4> To start off with programming, lets start with Arduino IDE and how it works. To start off open Arduino IDE and you will see 2 columns<u> void setup()</u> and <u>void loop()</u>.</h4></p>
+        <p><h4><h3>void setup()</h3>is where you put your declaration. Some examples are <u> pinMode(13, OUTPUT);</u>,<u> Serial.begin (9600);</u> and <u> motor.setSpeed(17);</u>. These lines of code basically is the start of every programming. Pinmode declares then specific Digital Output pin on the Arduino board as the output. This allows us to later on set the power of the pin to high or low with programming and allows us to do more with the board. Serial begin allows your Arduino IDE to show you how does your electronical components and arduino board functions with your code.(This will be further shown and explain later on). Lastly, motor setspeed basically changes the speed of your Stepper motor. </h4></p>
+        <p> More codes that I looked up :<a href="https://dlnmh9ip6v2uc.cloudfront.net/learn/materials/8/Arduino_Cheat_Sheet.pdf"><u>Click Here!</u></a></p>
+        <p><h4><h3>void loop()</h3> is where you insert the codes that you want your electronical parts to perform. Codes insertted into this part will continue to run unless stated in your code.( Further explanation in examples)</h4></p>
+        <p><h4>Lets try out a simple circuit with Tinker Cad circuit, a LED that lights up with programming. Lets go to Tinker Cad circuits and load in a pre-existing Arduino circuit with the name <u>Blink</u>.</h4></p>
+        <img src="ard1.PNG" height=300 width=300> <img src="ard2.PNG" height=300 width=300>
+        <p><h4> The LED has a positive and negative end. with programming, we can send a certain voltage to the positive end of the LED to give it power to light up, but since the LED can't recieve too high of a voltage, a resistor has to be used to limit the voltage travelling to the LED. The negative end is then connected to the Ground pin so that voltage can flow through. The code selects Digital pin 13 as the output and with the code, we can control a certain time delay to send voltage to pin 13, this causes the LED to blink.</h4></p>
+        <p><h4> Now that we have tested out the connection and programming in TinkerCad, we are sure that this connection and programme works and wont BLOW UP. Now, we can do the same circuit with our board and components. Firstly, we must connect the cables and components as shown on TinkerCad. Since the wires that I have are only male to male, I had to use a breadboard to connect the Resistor to the LED. After connecting, type the programme into your Arduino IDE and connect your Arduino board to your laptop/pc with a USB type A connection. Next, upload your code to your Arduino board with the upload button. This will send the code to your board and start working.</h4></p>
+        <img src="ard3.PNG" height=300 width=300> <img src="ard4.PNG" height=300 width=300>
+        <p><h4> Another electronical component that I have tested out was the LCD display and here is how I did it. In order to control the LCD dipslay with coding, a Arduino library has to be installed before hand so taht your Arduino actually recognises your codes.Link for Lcd display library:<a href="https://www.arduino.cc/en/Reference/LiquidCrystal"><u>Click Me!</u></a>. Read this guide about uploading libraries to Arduino<a href="https://www.arduino.cc/en/guide/libraries"><u>Click Me!</u></a></h4></p>
+        <img src="ard5.jpeg" height=300 width=300> <img src="ard6.jpeg" height=300 width=300>
+        <p><h4> This simple connection with code allowed me to dipaly some text on my LCD display. The LCD display provided had a LCD adapter connected to it so the connection was much simpler than it was suppose to, for a LCD display without an adapter, check <a href="https://www.arduino.cc/en/Tutorial/HelloWorld"><u>here</u>.</a></h4></p>
+        
+</div> 
+    
+    </div>
+ 
+    <div id="footer">
+        <h2> Copyright &copy; 2020 Chen Jia Cheng</h2>
+    </div>
+    </div>
+    
+    </body>
+
+
+
+
+
+</html>
